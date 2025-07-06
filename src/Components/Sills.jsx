@@ -98,7 +98,7 @@ const Skills = () => {
           {skillCategories.map((category, categoryIndex) => (
             <div key={categoryIndex} className="bg-white dark:bg-slate-900/50 p-8 rounded-xl border border-gray-200 dark:border-slate-700 hover:border-gray-300 dark:hover:border-slate-600 transition-all duration-300 shadow-lg hover:shadow-xl">
               <div className="flex items-center mb-6">
-                <span className="text-2xl mr-3">{category.icon}</span>
+                <span className="text-3xl mr-3">{category.icon}</span>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white">{category.title}</h3>
               </div>
               
@@ -126,7 +126,7 @@ const Skills = () => {
                     
                     {/* Skill Name */}
                     <div className="text-center">
-                      <h4 className="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 group-hover:scale-110 transition-colors">
                         {skill.name}
                       </h4>
                     </div>

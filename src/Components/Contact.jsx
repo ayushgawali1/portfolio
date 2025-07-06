@@ -33,7 +33,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Ready to bring your ideas to life ?
+            Ready to bring your ideas to life?
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-400">ayush.gawali@email.com</p>
+                  <p className="text-gray-600 dark:text-gray-400">ayushgawali.12345@gmail.com</p>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-400">+91 0123456789</p>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-600 dark:text-gray-400">Pune , Maharastra , India</p>
                 </div>
               </div>
             </div>
@@ -89,19 +89,19 @@ const Contact = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 dark:text-white dark:hover:text-black transition-colors duration-200"
                 >
                   <Github className="h-6 w-6" />
                 </a>
                 <a
                   href="#"
-                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:text-white dark:hover:text-black dark:hover:bg-blue-500 transition-colors duration-200"
                 >
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a
                   href="#"
-                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 dark:text-white dark:hover:text-black transition-colors duration-200"
                 >
                   <Twitter className="h-6 w-6" />
                 </a>
@@ -125,7 +125,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-                    placeholder="Your name"
+                    placeholder="Your Name"
                   />
                 </div>
                 <div>
@@ -140,7 +140,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-                    placeholder="your.email@example.com"
+                    placeholder="email@example.com"
                   />
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-                  placeholder="Project inquiry"
+                  placeholder="Short Description"
                 />
               </div>
 
@@ -173,7 +173,7 @@ const Contact = () => {
                   required
                   rows={5}
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-white rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
-                  placeholder="Tell me about your project..."
+                  placeholder="Message ..."
                 />
               </div>
 
