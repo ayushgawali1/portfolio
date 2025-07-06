@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Download, Eye, Code, Database, Server } from 'l
 
 function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20 transition-colors duration-300 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-gray-950 dark:via-blue-900/40 dark:to-purple-800/80 transition-colors duration-300 relative overflow-hidden">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center">
           {/* Main Title - Single Line */}
