@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, Download, Eye, Code, Database, Server } from 'l
 
 function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-gray-950 dark:via-blue-900/40 dark:to-purple-800/80 transition-colors duration-300 relative overflow-hidden">
+    <section id="home" className="pt-10 min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-gray-950 dark:via-blue-900/40 dark:to-purple-800/80 transition-colors duration-300 relative overflow-hidden">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center">
           {/* Main Title - Single Line */}
@@ -76,31 +76,31 @@ function Hero() {
               <Eye className="h-5 w-5 relative z-10" />
               <span className="relative z-10">View My Work</span>
             </a>
-            <button className="group relative overflow-hidden bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-2xl hover:from-gray-200 hover:to-gray-300 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 border border-gray-200/50 dark:border-gray-700/50 flex items-center space-x-2">
+            <a href="/Resume.pdf" download className="group relative overflow-hidden bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-700 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-2xl hover:from-gray-200 hover:to-gray-300 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 border border-gray-200/50 dark:border-gray-700/50 flex items-center space-x-2">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <Download className="h-5 w-5 relative z-10" />
               <span className="relative z-10">Download Resume</span>
-            </button>
+            </a>
           </div>
 
           {/* Enhanced Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="#"
+              href="https://github.com/ayushgawali1" target="_blank"
               className="group relative overflow-hidden p-4 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-200/50 dark:border-gray-700/50"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
               <Github className="h-6 w-6 text-gray-700 dark:text-gray-300 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors duration-300 relative z-10" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ayushgawali/" target="_blank"
               className="group relative overflow-hidden p-4 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-200/50 dark:border-gray-700/50"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
               <Linkedin className="h-6 w-6 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 relative z-10" />
             </a>
             <a
-              href="#"
+              href="mailto:ayushgawali.12345@gmail.com" target="_blank"
               className="group relative overflow-hidden p-4 bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-xl hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-200/50 dark:border-gray-700/50"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-teal-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>

@@ -22,7 +22,7 @@ const About = () => {
     },
     {
       icon: <Heart className="w-8 h-8 text-red-600 dark:text-red-400" />,
-      title: "User-Focused",
+      title: "Modern UI",
       description: "Creating intuitive interfaces that users love to interact with every day."
     }
   ];

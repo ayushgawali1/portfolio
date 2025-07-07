@@ -3,7 +3,7 @@ import Project from './Components/Project.jsx';
 import Footer from './Components/Footer.jsx';
 import Contact from './Components/Contact.jsx';
 import Hero from './Components/Hero.jsx';
-import Skills from './Components/Sills.jsx';
+import Skills from './Components/Skills.jsx';
 import About from './Components/About.jsx';
 
 function App() {

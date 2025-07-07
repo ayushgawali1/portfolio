@@ -1,4 +1,5 @@
 import React from 'react';
+import tailwind2 from '../assets/taiwind2.png'
 
 const Skills = () => {
   const skillCategories = [
@@ -28,7 +29,7 @@ const Skills = () => {
         },
         { 
           name: "Tailwind CSS", 
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          icon: tailwind2,
           color: "from-cyan-400 to-cyan-600"
         }
       ]
@@ -126,7 +127,7 @@ const Skills = () => {
                     
                     {/* Skill Name */}
                     <div className="text-center">
-                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 group-hover:scale-110 transition-colors">
+                      <h4 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                         {skill.name}
                       </h4>
                     </div>

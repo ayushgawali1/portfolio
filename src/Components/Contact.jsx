@@ -88,19 +88,19 @@ const Contact = () => {
               <h4 className="text-lg font-medium text-gray-900 dark:text-white mb-4">Follow me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/ayushgawali1" target='_blank'
                   className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 dark:text-white dark:hover:text-black transition-colors duration-200"
                 >
                   <Github className="h-6 w-6" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ayushgawali/" target='_blank'
                   className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:text-white dark:hover:text-black dark:hover:bg-blue-500 transition-colors duration-200"
                 >
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a
-                  href="#"
+                    target='_blank'
                   className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 dark:text-white dark:hover:text-black transition-colors duration-200"
                 >
                   <Twitter className="h-6 w-6" />
