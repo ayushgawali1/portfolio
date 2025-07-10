@@ -1,5 +1,4 @@
-import React from 'react';
-import { Code, Heart } from 'lucide-react';
+import { Code } from 'lucide-react';
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 
@@ -20,19 +19,13 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="space-y-4 justify-self-center">
+          <div className="space-y-4 md:justify-self-center">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2">
               {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
-                    // onClick={() => {
-                    //   const element = document.getElementById(item.toLowerCase());
-                    //   if (element) {
-                    //     element.scrollIntoView({ behavior: 'smooth' });
-                    //   }
-                    // }}
                     className="text-gray-400 dark:text-gray-500 hover:text-blue-500 hover:underline dark:hover:text-blue-500 transition-colors duration-200"
                   >
                     {item}
@@ -43,7 +36,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div className="space-y-4 justify-self-center">
+          <div className="space-y-4 md:justify-self-center">
             <h3 className="text-lg font-semibold">Services</h3>
             <ul className="space-y-2 text-gray-400 dark:text-gray-500">
               <li>Web Development</li>
