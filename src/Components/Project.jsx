@@ -19,7 +19,7 @@ const Projects = () => {
         <FeaturedProjects />
 
         {/* Other Projects */}
-        <OtherProjects />
+        {/* <OtherProjects /> */}
       </div>
 
       {/* View More Project Button */}
@@ -91,7 +91,7 @@ const FeaturedProjects = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -129,6 +129,7 @@ const FeaturedProjects = () => {
             <div className="flex space-x-4">
               <a
                 href={project.liveUrl}
+                target="_blank"
                 className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-200"
               >
                 <ExternalLink className="h-4 w-4" />
@@ -136,6 +137,7 @@ const FeaturedProjects = () => {
               </a>
               <a
                 href={project.githubUrl}
+                target="_blank"
                 className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors duration-200"
               >
                 <Github className="h-4 w-4" />
